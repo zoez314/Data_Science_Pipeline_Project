@@ -45,7 +45,7 @@ The project includes detailed outputs in the notebook for each evaluation metric
 
 ### Data Preprocessing
 
-1. **The data is first cleaned and preprocessed by separating numerical, categorical, and text features.
+1. **The data** is first cleaned and preprocessed by separating numerical, categorical, and text features.
 2. **Numerical features** like `Age` and `Positive Feedback Count` are standardized.
 3. **Categorical features** like `Clothing ID`, `Division Name`, `Department Name`, and `Class Name` are one-hot encoded.
 4. **Textual features** are transformed using TF-IDF vectorization for the `Review Text` and `Title` columns.

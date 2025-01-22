@@ -9,20 +9,29 @@ Follow the steps below to set up the project on your local machine and run the p
 ### Dependencies
 
 The following Python libraries are required for this project:
-pandas numpy matplotlib seaborn scikit-learn nltk textblob
-
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- nltk
+- textblob
 
 You can install all required dependencies by using the `requirements.txt` file.
 
 ### Installation
 
 1. Clone this repository to your local machine:
-   
-git clone https://github.com/zoez314/Data_Science_Pipeline_Project
 
+    ```bash
+    git clone https://github.com/zoez314/Data_Science_Pipeline_Project
+    ```
 
 2. Install the required dependencies:
-pip install -r requirements.txt
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Download the dataset (`reviews.csv`) and place it in the `/data` folder.
 
